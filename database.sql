@@ -1,0 +1,9 @@
+CREATE DATABASE IF NOT EXISTS wps_portal;
+USE wps_portal;
+
+CREATE TABLE IF NOT EXISTS simulation_users (
+    id INT AUTO_INCREMENT PRIMARY KEY,
+    name VARCHAR(100) NOT NULL,
+    simulation_attempt BOOLEAN DEFAULT TRUE,
+    created_at TIMESTAMP DEFAULT CURRENT_TIMESTAMP
+);
