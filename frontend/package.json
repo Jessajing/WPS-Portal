@@ -9,8 +9,8 @@
     "preview": "vite preview"
   },
   "dependencies": {
+    "@supabase/supabase-js": "^2.57.0",
     "@vitejs/plugin-react": "latest",
-    "axios": "^1.7.9",
     "vite": "latest",
     "react": "latest",
     "react-dom": "latest"
