@@ -94,7 +94,7 @@ function App() {
       </aside>
 
       <main className="signin-panel">
-        <button className="language-button" type="button">English <span>⌄</span></button>
+       
         <section className="signin-card">
           <h1>Sign In</h1>
           <form className="email-form" onSubmit={handleSubmit}>
