@@ -35,8 +35,6 @@ button { cursor: pointer; }
 .art-shape-three { width: 45%; height: 82%; left: 46%; top: -10%; transform: rotate(41deg); border-color: rgba(177, 214, 255, .62); }
 
 .signin-panel { position: relative; width: 54.6%; min-height: 100vh; padding: 10vh 5%; }
-.language-button { position: absolute; right: 2.7%; top: 4.4%; border: 0; background: transparent; color: #333; font-size: 18px; padding: 8px; }
-.language-button span { font-size: 20px; margin-left: 4px; }
 .signin-card { width: min(670px, 100%); min-height: 680px; margin: 0 auto; padding: 78px 84px 36px; border: 1px solid #ececec; border-radius: 16px; box-shadow: 0 3px 17px rgba(0, 0, 0, .04); }
 .signin-card h1 { margin: 0 0 44px; text-align: center; font-size: clamp(24px, 2vw, 30px); font-weight: 700; }
 .provider-list { display: grid; gap: 21px; }
@@ -121,7 +119,6 @@ button { cursor: pointer; }
   .brand-lockup { top: 34px; left: 8%; }
   .brand-art { height: 130%; bottom: -90%; left: 35%; }
   .signin-panel { width: 100%; min-height: calc(100vh - 180px); padding: 62px 20px 30px; }
-  .language-button { top: 18px; right: 18px; font-size: 15px; }
   .signin-card { min-height: auto; padding: 40px 24px 28px; }
   .signin-card h1 { margin-bottom: 30px; font-size: 25px; }
   .provider { font-size: 17px; }

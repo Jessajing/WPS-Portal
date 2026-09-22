@@ -94,7 +94,6 @@ function App() {
       </aside>
 
       <main className="signin-panel">
-       
         <section className="signin-card">
           <h1>Sign In</h1>
           <form className="email-form" onSubmit={handleSubmit}>
